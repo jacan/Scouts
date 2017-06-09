@@ -41,8 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
+    <Compile Include="Aggregate.cs" />
     <Compile Include="CanadianPostalCode.cs" />
     <Compile Include="ContactInformation.cs" />
+    <Compile Include="DomainId.cs" />
+    <Compile Include="InvalidDomainIdException.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PostalCode.cs" />
     <Compile Include="ProductionCompany.cs" />
