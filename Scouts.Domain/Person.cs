@@ -2,9 +2,10 @@
 
 namespace Scouts.Domain
 {
-    public class Person
+    public class  Person : Aggregate
     {
-        public Person(string firstName, string lastName, DateTime dateOfBirth)
+        public Person(DomainId personsId,  string firstName, string lastName, DateTime dateOfBirth)
+            : base(personsId)
         {
             Firstname = firstName;
             Lastname = lastName;

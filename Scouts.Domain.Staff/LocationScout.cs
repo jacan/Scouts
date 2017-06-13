@@ -4,8 +4,8 @@ namespace Scouts.Domain.Staff
 {
     public class LocationScout : Person
     {
-        public LocationScout(string firstName, string lastName, DateTime dateOfBirth, Portfolio portFolio = null)
-            : base(firstName, lastName, dateOfBirth)
+        public LocationScout(DomainId locationScoutsId, string firstName, string lastName, DateTime dateOfBirth, Portfolio portFolio = null)
+            : base(locationScoutsId, firstName, lastName, dateOfBirth)
         {
             Portfolio = portFolio ?? new Portfolio();
         }
