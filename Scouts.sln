@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.12
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scouts.Domain", "Scouts.Domain\Scouts.Domain.csproj", "{843DB3FF-FEC4-40A9-BC54-153982D2B5B6}"
 EndProject
@@ -14,6 +14,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scout.Repositories", "Scout.Repositories\Scout.Repositories.csproj", "{FA6F86CB-5ED0-4E04-833F-F8C5EC093D47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scouts.Domain.PhotoLibrary", "Scouts.Domain.PhotoLibrary\Scouts.Domain.PhotoLibrary.csproj", "{33336613-6250-45F2-8416-D76E2E73B011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scout.Domain.Data", "Scout.Domain.Data\Scout.Domain.Data.csproj", "{43ABA743-8CB6-465C-B45A-4BE42B42224A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scouts.Tests", "Scouts.Tests\Scouts.Tests.csproj", "{8849B067-73B4-4F00-A96B-A72C1A3228A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EFBF2A93-BC0B-4280-A34F-5CEFF9AAF0C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scouts.Domain.Map", "Scouts.Domain.Map\Scouts.Domain.Map.csproj", "{1C05062F-C51F-41E1-A570-A35FB4713D6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +45,18 @@ Global
 		{33336613-6250-45F2-8416-D76E2E73B011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33336613-6250-45F2-8416-D76E2E73B011}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33336613-6250-45F2-8416-D76E2E73B011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43ABA743-8CB6-465C-B45A-4BE42B42224A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43ABA743-8CB6-465C-B45A-4BE42B42224A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43ABA743-8CB6-465C-B45A-4BE42B42224A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43ABA743-8CB6-465C-B45A-4BE42B42224A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8849B067-73B4-4F00-A96B-A72C1A3228A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8849B067-73B4-4F00-A96B-A72C1A3228A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8849B067-73B4-4F00-A96B-A72C1A3228A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8849B067-73B4-4F00-A96B-A72C1A3228A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C05062F-C51F-41E1-A570-A35FB4713D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C05062F-C51F-41E1-A570-A35FB4713D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C05062F-C51F-41E1-A570-A35FB4713D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C05062F-C51F-41E1-A570-A35FB4713D6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +66,8 @@ Global
 		{427CED47-432D-4A8A-8F1C-C16C4AD07418} = {1E83861C-BBDD-4FFD-96C9-3AA8128C2CEB}
 		{FA6F86CB-5ED0-4E04-833F-F8C5EC093D47} = {E803BA91-31D3-423D-89FF-DB249B73A00C}
 		{33336613-6250-45F2-8416-D76E2E73B011} = {1E83861C-BBDD-4FFD-96C9-3AA8128C2CEB}
+		{43ABA743-8CB6-465C-B45A-4BE42B42224A} = {E803BA91-31D3-423D-89FF-DB249B73A00C}
+		{8849B067-73B4-4F00-A96B-A72C1A3228A1} = {EFBF2A93-BC0B-4280-A34F-5CEFF9AAF0C8}
+		{1C05062F-C51F-41E1-A570-A35FB4713D6A} = {E803BA91-31D3-423D-89FF-DB249B73A00C}
 	EndGlobalSection
 EndGlobal
