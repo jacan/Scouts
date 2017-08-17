@@ -45,12 +45,14 @@
     <Compile Include="CanadianPostalCode.cs" />
     <Compile Include="ContactInformation.cs" />
     <Compile Include="CustomValueDescriptor.cs" />
+    <Compile Include="DomainFactory.cs" />
     <Compile Include="DomainId.cs" />
     <Compile Include="InvalidDomainIdException.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PostalCode.cs" />
     <Compile Include="ProductionCompany.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Schedule.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
