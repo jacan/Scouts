@@ -1,16 +1,30 @@
 ﻿namespace Scouts.Domain
 {
-    public class ProductionCompany
+    public class ProductionCompany : Aggregate
     {
-        public ProductionCompany(string companyName, Address address, ContactInformation contactInformation)
+        public ProductionCompany(
+            DomainId companyId,
+            DomainId locationManagersId,
+            string companyName, 
+            Schedule productionSchedule, 
+            Address address, 
+            ContactInformation contactInformation)
+
+            : base(companyId)
         {
+            LocationManagersId = locationManagersId;
             CompanyName = companyName;
+            Schedule = productionSchedule;
             Address = address;
             ContactInformation = contactInformation;
         }
 
-        public string CompanyName { get; private set; }
-        public Address Address { get; private set; }
-        public ContactInformation ContactInformation { get; private set; }
+        public DomainId LocationManagersId { get; }
+
+        public string CompanyName { get; set; }
+        public Address Address { get; set; }
+        public ContactInformation ContactInformation { get; set; }
+        
+        public Schedule Schedule { get; }
     }
 }
